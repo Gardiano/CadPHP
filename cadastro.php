@@ -1,7 +1,7 @@
         
 <?php
     include_once("conexao.php"); 
-    // verificando se esta um recebendo POST;
+    // verificando se esta recebendo POST;
     if(isset($_POST["txt_nome_usuario"], $_POST['txt_email_usuario'], $_POST['txt_senha_usuario'])) {
 
         $nome_usuario = $_POST['txt_nome_usuario'];  
